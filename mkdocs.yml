@@ -1,1 +1,40 @@
-site_name: My Docs
+site_name: 'Amulet Wiki'
+site_description: 'Everything you need to know about the Amulet Network.'
+
+# Repository
+repo_name: 'amulet-network/amulet-network-wiki'
+repo_url: 'https://github.com/amulet-network/amulet-network-wiki'
+
+# Copyright
+copyright: 'Copyright &copy; 2017 Amulet R&D'
+
+# Documentation and theme
+theme: 'material'
+
+# Options
+extra:
+  logo: 'images/logo.png'
+  palette:
+    primary: 'teal'
+    accent: 'teal'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  social:
+    - type: 'github'
+      link: 'https://github.com/amulet-network'
+    - type: 'twitter'
+      link: 'https://twitter.com/amuletnetwork'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/amuletnetwork'
+
+# Google Analytics
+google_analytics:
+  - 'UA-104487472-1'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
